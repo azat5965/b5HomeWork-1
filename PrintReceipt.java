@@ -1,17 +1,26 @@
-public class PrintReceipt{
-	
-	public static void main(String[] args){
-		String itemOne = "Computer";
-		String itemTwo = "Headphones";
-		int costOne = 980;
-		int costTwo = 40;
-		int sum = costOne + costTwo;
+public class PrintReceipt {
 
-		System.out.println(itemOne+": "+costOne+" dollars");
-		System.out.println(itemTwo+": "+costTwo+" dollars");
-		System.out.println( );
-		System.out.println("Total: "+sum);
+	public static void main (String[] args){
+
+			String item1 = "980";
+		    String item2 = "40";
+
+		System.out.println("Computer: "+item1);
+		System.out.println("Headphones: "+item2);
+
+
+		int number1 = 980;
+		int number2;
+		number2 = 40;
+
+		int sum = number1 + number2;
+ 		System.out.println("Total:");
+		System.out.println(sum);
 
 	}
+
+
+
+
 
 }
