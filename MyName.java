@@ -1,10 +1,9 @@
-public class MyName{
-	
-	public static void main(String[] args){
-     String firstName = "Lisa";
-     String lastName = "Fuentes"; 
-
-      System.out.println("My first name is " + firstName+ " and last name is " + lastName);
-
+public class MyName {
+	public static void main(String[] args) {
+		String fistName= "John";
+		String lastName = "Doe";
+		System.out.println("My first Name is " + fistName +  "  and last Name is "
+		 +  lastName);
 	}
+
 }
