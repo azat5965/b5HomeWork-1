@@ -12,6 +12,5 @@ public class PrintReceipt{
 	System.out.println("------------------");
 	int total = value1+value2;
 	System.out.println("Total: " + total + " dollars");
-		
 	}
 }
