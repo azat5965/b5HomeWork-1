@@ -1,0 +1,39 @@
+------------------------------------
+Homework 1
+--------------------------------
+
+
+public static void main(String[]args) {
+	Scanner input=new Scanner (System.in);
+	System.out.println("Hi! What is your name?");
+	String userName=input.next();
+	System.out.println("Nice to meet you "+userName);
+	System.out.println("What do you do "+userName +" ?");
+	String userJob=input.next();
+	System.out.println("So you do "+userJob);
+	System.out.println("What is your hourly salary?");
+	int userSalary=input.nextInt();
+	System.out.println("So you make weekly:  $"+userSalary*40);
+
+System.out.println("So you make monthly:  $"+(userSalary*40)*4);
+
+System.out.println("So you make anually:  $"+((userSalary*40)*4)*12);
+}
+
+
+--------------------------------------
+Homework2
+---------------------------
+
+public static void main(String[] args) {
+	Scanner fahNum = new Scanner (System.in);
+	System.out.println("Please enter degree in Fahrenheit");
+	float num= fahNum.nextFloat();
+	
+	float result = ((num-32)*5/9);
+	System.out.println(num +" Fahrenheits is " +result+ " in Celcius");
+	
+	}
+}
+
+
