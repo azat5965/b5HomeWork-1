@@ -1,20 +1,21 @@
 import java.util.Scanner;
 public class FahrenheitToCelsius{
 	
+
 	public static void main(String[] args){
-		Scanner input = new Scanner(System.in);
-		System.out.println("Please enter degrees in Fahrenheit");
 
-		float fahrenheitDegree = input.nextInt();
-		int celsius = -32;
+     
+     Scanner input = new Scanner(System.in);
+     
+     System.out.println("Please enter degree in Fahrenheit: ");
 
-		System.out.println(fahrenheitDegree+" Fahrenheit degrees will be equivilant to "+(fahrenheitDegree+celsius)*5/9+" Celsius.");
+     double fahrenheit = input.nextDouble();
 
+     System.out.println("It is " +((fahrenheit-32)*5/9)+" in Celsius");
 
 
 
 
 
 	}
-
 }

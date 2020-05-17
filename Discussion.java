@@ -1,41 +1,42 @@
 import java.util.Scanner;
 public class Discussion{
+	
+
 	public static void main(String[] args){
 
-		Scanner input = new Scanner(System.in);
+     
+     Scanner input = new Scanner(System.in);
+     
+     System.out.println("Hi! What is your name? ");
 
-		System.out.println("Hi! What is your name?");
+     String name = input.next();
 
-		String userName = input.next();
+     System.out.println("Nice to meet you, "+name );
+     
+     System.out.println("What do you do, "+name+"?" );
 
-		System.out.println("Nice to meet you "+userName);
+     String youDo = input.next();
 
-		System.out.println("What do you do "+userName+" for work?");
+     System.out.println("So you are a "+youDo );
 
-		String job = input.next();
+     System.out.println("How much is your hourly salary? " );
 
-		System.out.println("So you are an "+job+"?");
+     int salary = input.nextInt();
 
-		System.out.println("How much is your hourly salary?");
+     System.out.println("So you make weekly $"+ (salary*8*5) );
 
-		int hourlyRate = input.nextInt();
+     System.out.println("So you make monthly $"+ (salary*8*5*4) );
 
-		int weeklyPay = 40;
+     System.out.println("So you make annual $"+ (salary*8*5*4*12) );
 
-		int month = 4;
 
-		int year = 12;
 
-		System.out.println("So you make weekly $"+hourlyRate*weeklyPay);
 
-		System.out.println("So you make monthly $"+(hourlyRate*weeklyPay)*month);
+     
 
-		System.out.println("So you make annually $"+(hourlyRate*weeklyPay)*month*year);
 
 
 
 
 	}
-
-
 }
