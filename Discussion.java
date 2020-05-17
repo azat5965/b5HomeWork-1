@@ -1,27 +1,28 @@
 import java.util.Scanner;
 
-public class Discussion{
-
-	public static void main(String[] args){
+	public class Discussion {
+		public static void main(String[] args){
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("Hi! What is your name? ");
+		
+		System.out.println("Hi! What is your name?");
 
-		String firstName = input.next();
+		String name = input.next();
+    	System.out.println("Nice to meet you "+name );
+    	System.out.println("What do you do "+name+ "?");
+    	String work = input.next();
+    	System.out.println("So you are a  "+work );
+    	System.out.println("How much is your hourly salary?");
+    	int salary = input.nextInt();
 
-		System.out.println(" Nice to meet you " +firstName);
-		System.out.println("What do you do " +firstName+"?");
-
-		String occupation = input.next(); 
-		System.out.println("So you are a SDET");
-		System.out.println("How much is your hourly salary?");
-
-		int salary = input.nextInt();
-		System.out.println("So you make weekly " +salary*40);
-		System.out.println("So you make monthly " +salary*160);
-		System.out.println("So you make annual "+salary*160*12);
+		System.out.println(" So you make weekly $ "+ (salary*40)  );
+		System.out.println(" So you make monthly $ "+ (salary*160)  );
+		System.out.println(" So you make annual $ "+ (salary*1920)  );
 
 		}
 
 
-}
+
+
+
+	}
