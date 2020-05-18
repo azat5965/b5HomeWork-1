@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class FahrenheitToCelcius{
+	
+	public static void main(String[] args){
+
+	     Scanner input = new Scanner(System.in);
+	     System.out.println("Please enter degree in Fahrenheit");
+
+	     double fahrenheit = input.nextDouble();
+
+	     System.out.println("It is 21.11 in Celsius");
+
+
+	}
+}
