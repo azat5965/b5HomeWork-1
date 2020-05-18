@@ -3,40 +3,31 @@ package Operators;
 import java.util.Scanner;
 
 public class GroceryStore {
-
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Enter the prive of orange?");
+		System.out.println("Please enter price of oranges?: ");
 		
-		float oPrice = input.nextFloat();
+		int price = input.nextInt();
 		
-		System.out.println("Enter amound of pounds that you want: ");
+		System.out.println("Please enter how many pounds you want?: ");
 		
-		float aPound = input.nextFloat();
+		int pounds = input.nextInt();
 		
-		System.out.println("What is your account balance?");
+		System.out.println("What is your account balance?: ");
 		
-		float aBalance = input.nextFloat();
+		int userBalance = input.nextInt();
 		
-		boolean result = aBalance>=oPrice*aPound ;
+		double balance = 12.35;
 		
-		System.out.println("You can make a purchase: "+result);
-		System.out.println("You can't make a purchase: "+!result);
+		boolean youCan = userBalance >balance;
 		
-		// Timur
-		
-				
+		System.out.println("You can make a purchase:"+youCan);
 		
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		}
+	}
+
 }
