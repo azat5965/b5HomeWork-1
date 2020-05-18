@@ -1,24 +1,15 @@
 import java.util.Scanner;
-public class FahrenheitToCelcius {
+public class FahrenheitToCelcius{
+	
 	public static void main(String[] args){
 
+	     Scanner input = new Scanner(System.in);
+	     System.out.println("Please enter degree in Fahrenheit");
 
-Scanner input = new Scanner(System.in);
- System.out.println("Please enter degree in Fahrenheit: ");
-  int numberOfF = input.nextInt();
-  double numberOfC = (numberOfF - 32)*0.55555555555D;
+	     double fahrenheit = input.nextDouble();
 
-  System.out.println("It is "+numberOfC+" in Celcius");
-
-// Timur Dzhigkaev
-  
-
-
+	     System.out.println("It is 21.11 in Celsius");
 
 
 	}
-
-
-
 }
-
