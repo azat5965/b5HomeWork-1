@@ -1,25 +1,19 @@
-
-package Operaters;
+package Operators;
 
 import java.util.Scanner;
 
 public class IsEven {
-	
 	public static void main(String[] args) {
-		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Please provide your student id number");
+		System.out.println("Please enter your Student Id ?");
+		int idNumber = input.nextInt();
 		
-		int studId = input.nextInt();
+	   boolean result = idNumber%2 ==0;
 		
-		Boolean result = studId%2 == 0;
-		 
-		System.out.println("Entered id is even: "+result);
-		System.out.println("Entered id is odd: "+!result);
+		System.out.println(" Your entered Id is even: "+result);
+		System.out.println(" Your entered Id is odd; "+!result);
 		
-		
-		 
 		
 	}
 
