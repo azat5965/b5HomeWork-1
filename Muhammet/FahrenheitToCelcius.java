@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class FahrenheitToCelcius{
 	
 	public static void main(String[] args){
@@ -8,7 +9,8 @@ public class FahrenheitToCelcius{
 
 	     double fahrenheit = input.nextDouble();
 
-	     System.out.println("It is 21.11 in Celsius");
+
+	     System.out.println("It is" +(fahrenheit-32)*5/9+ "in celsius");
 
 
 	}
