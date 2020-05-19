@@ -1,0 +1,28 @@
+
+public static void main(String[]args) {
+	System.out.println("Please enter Student Id number");
+	Scanner input=new Scanner(System.in);
+     int studentId=input.nextInt();
+     boolean idNum=(studentId%2==0); 
+     System.out.println("Entered number is even: "+idNum);
+    
+    _______________________________________________________________
+    
+  public static void main(String[]args) {
+		Scanner input=new Scanner(System.in);
+		 
+		System.out.println("Enter the price of oranges per pound?");
+		
+		double price= input.nextDouble();
+		
+		System.out.println("Enter amount you wish to purchase?");
+		double pounds=input.nextDouble();
+		
+		System.out.println("What is your acount balance?");
+		double balance=input.nextDouble();
+		
+
+			boolean result= balance>=price*pounds;
+			System.out.println("You can make a purchase: "+result);
+			
+					
