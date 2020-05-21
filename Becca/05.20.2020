@@ -1,0 +1,12 @@
+public static void main(String[]args) {
+		String sentence=" Is java easy? ";
+		sentence =sentence.trim();
+
+	 String output=sentence.substring(8,9).toUpperCase()+sentence.substring(9,12);
+	 System.out.println(output);
+		
+		
+	
+	}
+
+}
