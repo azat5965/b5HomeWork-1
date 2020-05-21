@@ -1,0 +1,38 @@
+public static void main(String[]args) {
+		String name="Becca";
+		
+		System.out.println(name.substring(0,1).toUpperCase()); 
+		System.out.println(name.substring(1,2).toUpperCase());
+		System.out.println(name.substring(2,3).toUpperCase());
+		System.out.println(name.substring(3,4).toUpperCase());
+		System.out.println(name.substring(4,5).toUpperCase());
+	}
+
+}
+
+-----------------------------------------------
+public static void main(String[]args) {
+		
+		Scanner input= new Scanner(System.in);
+		System.out.println("How many percent you attending the school out of 100?");
+		
+	int atendencePercent= input.nextInt();
+	
+	System.out.println("Do you finish all your homework?Yes/No");
+	String finishesHW=input.next();
+	System.out.println("Have you reccaped Java class? Yes/No");
+	String reccapesJava=input.next();
+		 
+		 boolean finishesHWResult=finishesHW.equalsIgnoreCase("Yes");
+		 boolean reccapesJavaResult=reccapesJava.equalsIgnoreCase("Yes");
+		 boolean result=finishesHWResult && reccapesJavaResult;
+		 boolean resultAtendence=atendencePercent >= 80;
+
+         boolean finalResult = result && resultAtendence;
+ 
+	System.out.println("Active student: "+ finalResult);
+	
+	
+	}
+
+}
