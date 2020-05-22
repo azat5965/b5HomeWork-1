@@ -1,5 +1,7 @@
 package StringMethods;
 
+import java.util.Scanner;
+
 public class isJavaEasy {
 	public static void main(String[] args) {
 		
@@ -8,6 +10,15 @@ public class isJavaEasy {
 		String sentenceWord = sentence.substring(0,1).toUpperCase();
 		
 		System.out.println(sentenceWord+(sentence.substring(1,4)));
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
