@@ -1,0 +1,11 @@
+package HomeWork5;
+
+public class task1 {
+	public static void main(String[] args) {
+		String sentense = " Is Java easy?";
+		String output = sentense.substring(9,10).toUpperCase();
+		
+		System.out.println(sentense);
+		System.out.println(output.concat(sentense.substring(10,13)));
+	}
+}
