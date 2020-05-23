@@ -1,0 +1,29 @@
+package HomeWork5;
+import java.util.Scanner;
+
+public class task2 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please print your name, position, location, and company?");
+		
+		String sentence = input.nextLine();
+		int indexOfSpace = sentence.indexOf(' ');
+		String word1 = sentence.substring(0, indexOfSpace);
+		System.out.println("So your name is: " + word1.toUpperCase());
+		
+		String sentence2 = sentence.substring(indexOfSpace+1);
+		indexOfSpace = sentence2.indexOf(' ');
+		
+		String word2 = sentence2.substring(0, indexOfSpace);
+		System.out.println("You work as: " + word2.toUpperCase());
+		
+		String sentence3 = sentence2.substring(indexOfSpace+1);
+		
+		String word3 = sentence3.substring(0, sentence3.indexOf(' '));
+		System.out.println("Your location is: " + word3.toUpperCase());
+		
+		String word4 = sentence3.substring(sentence3.indexOf(' ')+1);
+		System.out.println("You work for company: " + word4.toUpperCase());
+		
+	}
+}
