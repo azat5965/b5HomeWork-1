@@ -1,0 +1,25 @@
+package Homework6;
+
+import java.util.Scanner;
+
+
+public class Task1 {
+
+	public boolean canDivide(int num1, int num2) {
+		boolean sum = num1 % num2 ==0;
+		return sum;
+	}
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter first number:");
+		int num1 = input.nextInt();
+		System.out.println("Please enter second number:");
+		int num2 = input.nextInt();
+		
+		Task1 canDivide = new Task1();
+		System.out.println("You can divide this numbers: "+canDivide.canDivide(num1, num2));
+		
+	}
+
+}
