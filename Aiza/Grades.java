@@ -7,14 +7,11 @@ public class Grades {
 	public void scoreToGrades(int number) {
 		if(number>=80 && number<=100) {
 			System.out.println('A');
-		}
-			if (number>=60 && number<=79) {
+		}else if (number>=60 && number<=79) {
 				System.out.println('B');
-			}
-				if (number>=40 && number<=59) {
+			}else if (number>=40 && number<=59) {
 					System.out.println('C');
-				}
-					if (number>=0 && number<=40) {
+				}else if (number>=0 && number<=40) {
 						System.out.println('F');
 					}
 				
