@@ -8,7 +8,7 @@ public class LoopsHomeworkTask3 {
 		int N = input.nextInt();
 		for(int i= 1; i<=N;i++) {
 			
-			System.out.println("love");
+			System.out.print("love ");
 		}
 		
 	}
